@@ -38,4 +38,13 @@ console.log(isPalindrome("hello"));
 console.log(isPalindrome("madam"));
 console.log(isPalindrome("world"));
 
+// Function 5 : CalculateDiscountedPrice
+// Returns the price after applying the discount percentage
 
+function calculateDicountedPrice(originalPrice , discountPercentage) {
+    return originalPrice - (originalPrice * (discountPercentage / 100));
+
+}
+console.log(calculateDicountedPrice(100 , 20));
+console.log(calculateDicountedPrice(100 , 30));
+console.log(calculateDicountedPrice(300 , 20));
