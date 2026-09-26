@@ -16,3 +16,11 @@ function convertToUpperCase(text) {
 console.log(convertToUpperCase(`hello`));
 console.log(convertToUpperCase(`good morning`));
 
+// Function 3 : 
+// Returns the larger of two numbers
+function findMaximum(num1, num2) {
+    return Math.max(num1, num2) ;
+}
+console.log(findMaximum(5 , 9));
+console.log(findMaximum(100 ,45 ));
+console.log(findMaximum(7 , 7));
